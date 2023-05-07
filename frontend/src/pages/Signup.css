@@ -1,0 +1,30 @@
+.signup__image--container {
+    background-image: url(https://images.unsplash.com/photo-1615640325967-af4cfa4c0c6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0NDQ2NjB8MHwxfHNlYXJjaHwxfHxoYW5kaWNyYWZ0fGVufDB8fHx8MTY4MzI4MjE4Mg&ixlib=rb-4.0.3&q=80&w=1080);
+    height: 100vh;
+    background-size: cover;
+}
+
+.signup__form--container,
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login__image--container {
+    background-image: url(https://images.unsplash.com/photo-1517486430290-35657bdcef51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0NDQ2NjB8MHwxfHNlYXJjaHwxfHxwZXJhaGVyYSUyRmVsZXBoYW50c3xlbnwwfHx8fDE2ODMyODYwMzI&ixlib=rb-4.0.3&q=80&w=1080);
+    height: 100vh;
+    background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+    .login__image--container,
+    .signup__image--container {
+        display: none;
+    }
+}
+
+/* home https://res.cloudinary.com/learn-code-10/image/upload/v1653947013/yqajnhqf7usk56zkwqi5.png */
+/* https://res.cloudinary.com/learn-code-10/image/upload/v1654093280/xkia6f13xxlk5xvvb5ed.png sale */
